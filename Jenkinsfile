@@ -1,7 +1,7 @@
 pipeline {
     environment {
-        registry = 'israelaminu/ml_model'
-        registryCredential = 'dockerhub_id'
+        registry = 'cooldocker19/ml_model'
+        registryCredential = 'Docker@2021'
         dockerImage = ''
     }
     agent any
